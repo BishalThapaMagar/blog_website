@@ -12,13 +12,16 @@ flex-flow - flex-direction + flex-wrap
 
 # Align container-items inside container
 justify-content - center, flex-start, flex-end, space-around, space-between
+(space bet contents in row)
 
 # align flex-items in a staright line through content
 align-items - center(middle), flex-start(top),flex-end(bottom),stretch(top to bottom), baseline(align in a line)
+(baseline alignment)
 
 # Used to align flex lines (seems like combination of above 2 items)
 align-content - space-between(top and sides), space-around(top, bot and both sides), stretch(fill the whole line on all sides:default),
         "     - center (all items in center form all direction), flex-start(top-left), flex-end(bottom-right)
+(space bet contents in col alignment)
 
 # ITEMS (direct child of container is flex-items)
 <div style="order: 2">1</div>
@@ -48,3 +51,14 @@ RESPONSIVE
   }
 }
 
+rem = root(html page) em
+em = parent em
+
+CSS TRANSITION
+  need to set 2 things
+    1. property to which to transition 
+    2. duration since default is 0
+    3. timing fucntion - type of transition : ease, ease-in, ease-out, ease-in-out, linear, cubic-bezier(n,n,n,n)
+    4. delay - time before starting
+  
+  transition : width(all) 0.3s ease 0s

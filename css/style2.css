@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 0;  
+    border-bottom: 1px solid rgb(241, 230, 230); /* HORIZONTAL LINE*/
+}
+
+/* HAMURGER */
+.icon{
+    margin: 0 12px;
+}
+.icon a{
+    padding: 0 10px;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.icon a:hover {
+    color:#2f6697;
+}
+
+/* LOGO */
+header h2{
+    padding: 0;
+    margin: 0;
+}
+
+/* NAVLINKS */
+.nav_links ul{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 7px;
+}
+
+.nav_links li a {
+  transition : all 0.3s ease 0s;
+  font-family: "BreveText", helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color:#000000;
+  text-decoration: none;
+}
+
+.nav_links li a:hover {
+    transition : color 0.5s ease 0s;
+    color: #3589d2;
+    text-decoration: underline; 
+}
+
+/* SIGNUPBUTTON */
+.signup{
+    align-self: self-end;
+}
+
+.signup button{
+    background-color: #2f6697;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.4em 10px;
+    margin: 20px 20px;
+    border-radius: 2px;
+    margin: 15px 0;
+}
+
+.signup button:hover{
+    cursor: pointer;
+}
+
+/* HAMBURGER TO X and its CONTENT 
+SIGNUP TO RIGHT 
+RESPONSIVE */
