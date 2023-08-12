@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+# CONTAINER
+
+flex-wrap:wrap
+
+flex-direction - row, row-reverse, column, column-reverse
+flex-wrap - wrap, nowrap
+flex-flow - flex-direction + flex-wrap
+
+# Align container-items inside container
+justify-content - center, flex-start, flex-end, space-around, space-between
+
+# align flex-items in a staright line through content
+align-items - center(middle), flex-start(top),flex-end(bottom),stretch(top to bottom), baseline(align in a line)
+
+# Used to align flex lines (seems like combination of above 2 items)
+align-content - space-between(top and sides), space-around(top, bot and both sides), stretch(fill the whole line on all sides:default),
+        "     - center (all items in center form all direction), flex-start(top-left), flex-end(bottom-right)
+
+# ITEMS (direct child of container is flex-items)
+<div style="order: 2">1</div>
+<div style="order: 1">2</div>
+
+==> 2 1
+flex-grow : 2 i.e. this item will grow 2 times relative to other items. And cover space
+flex-shrink: 0
+flex-basis : 200px i.e. set inital length/size
+flex : flex-grow flex-shrink flex-basis
+    e.g. flex : 0 0 25% # this will create 4 items with cover 25% of screen/container each. Also add max-width
+         max-width :25%
+
+align-self: i.e. overwrites align-items
+
+
+RESPONSIVE
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+# MOBILE
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+

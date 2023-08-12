@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: BreveText, helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav .button{
+    margin: 0;
+    padding: 1rem;
+}
+
+nav .button a{
+    text-decoration: none;
+    color: black;
+}
+
+nav .logo{
+    margin: 0rem;
+    padding: 0;
+}
+
+nav .logo h2{
+    margin: 0rem 2rem;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 1rem;
+    padding: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+nav a .signup{
+    align-self:flex-end;
+}
+
+nav .signup a{
+    text-decoration: none;
+    color: black;
+}
