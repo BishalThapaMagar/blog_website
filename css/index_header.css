@@ -89,6 +89,15 @@ header {
     font-size: 36px;
 }
 
+.name a{
+    text-decoration: none;
+    color: black;
+}
+
+.name a:hover{
+    color: black;
+}
+
 .name p{
     opacity: 0.6;
 }
