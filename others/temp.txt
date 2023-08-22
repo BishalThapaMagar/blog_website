@@ -1,0 +1,13 @@
+
+        <!-- <div class="imgs">
+            <img id="top" src="/images/topink.jpg" alt="topink">
+            <div class="black"></div>
+            <img id="bottom" src="/images/bottomink.jpg" alt="bottomink">
+
+            <div class="book_item">
+                <h4>Read my ebooks for free to learn new ideas</h4>
+                <div class="book_detils">
+                    
+                </div>
+            </div>
+        </div> -->
