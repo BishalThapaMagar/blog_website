@@ -55,6 +55,15 @@
     margin-bottom: 2vh;
 }
 
+.data a{
+    text-decoration: none !important ;
+    color:black!important;
+}
+
+.data a:hover{
+    color:black!important;
+}
+
 .data span{
     color: red;
     font-style: italic;
