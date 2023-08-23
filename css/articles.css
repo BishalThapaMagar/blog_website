@@ -1,0 +1,89 @@
+/* BANNER */
+
+.article_page{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.banner_articles{
+    background-color: wheat;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid white;
+    border-top: 1px solid black;
+}
+
+.banner_articles h1{
+    font-size: 68px;
+    margin-bottom: 4vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner_articles p{
+    font-size: 20px;
+    max-width: 60%;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* TOPICS  */
+
+.topic_container{
+    text-align: left;
+    padding: 50px;
+    background-color: rgb(35, 33, 33);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topic_container h1{
+    font-size: 68px;
+    margin-bottom: 30px;
+}
+
+.all_topics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.topic{
+    width: 50%;
+    padding: 30px;
+}
+
+.topic h3{
+    font-weight: 18px;
+    padding: 0 10px 30px 0;
+    border-bottom: 1px solid white;
+}
+
+
+.topic ul{
+    list-style: none ;
+}
+
+.topic ul li{
+    padding: 20px 0;
+    border-bottom: 1px solid white;
+}
+
+.topic a:hover{
+    color: wheat;
+}
+
+.topic .more {
+    padding: 20px 0 10px 0;
+}
+
+.topic .more a{
+    text-decoration: none;
+}

@@ -1,0 +1,124 @@
+.details_page{
+    border-top: 1px solid wheat;
+    background-color: rgb(35, 33, 33);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+/* INFO  */
+
+.details_page .info{
+    padding: 15vh 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 70%;
+    max-width: 70%;
+    border-right: 1px solid white;
+}
+
+.details_page .info h1{
+    font-size: 48px;
+}
+
+.details_page .info .author{
+    margin: 20px 0;
+    padding-bottom: 10px;
+    line-height: 2em;
+    border-bottom: 1px solid white;
+}
+
+.details_page .info .author p{
+    font-size: 14px;
+}
+
+.details_page .info img{
+    width: 100%;
+    height: 20vh;
+    margin: 20px 0;
+}
+
+
+.details_page .additionals{
+    width: 30%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* ADDITIONALS  */
+
+.details_page .additionals .author{
+    margin: 60px 0 30px 0;
+}
+
+.details_page .additionals .author h2{
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.details_page .additionals .author p{
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.details_page .additionals .author a{
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.details_page .additionals .author a:hover{
+    color: wheat;
+}
+
+.details_page .additionals .author ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.details_page .additionals .author ul li a{
+    padding: 0;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+/* ADS  */
+
+.details_page .additionals .ads{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.details_page .additionals .ads img{
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 20px;
+}
+
+.details_page .additionals .other_articles{
+    margin: 10px;
+}
+
+.details_page .additionals .other_articles ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.details_page .additionals .other_articles ul li{
+    padding: 5px;
+    margin: 0;
+    font-style: italic;
+}

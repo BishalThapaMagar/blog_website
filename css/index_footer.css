@@ -88,30 +88,30 @@ footer{
     padding: 50px 200px 50px 50px;
 }
 
-.inline_links .left {
+.links .inline_links .left {
     width: 50%;
     padding-left: 50px;
 }
 
-.inline_links .left ul{
+.links .inline_links .left ul{
     list-style: none;
 }
 
-.inline_links .left li,a{
+.links .inline_links .left li,a{
     text-decoration: none ;
     color: white;
 }
 
-.inline_links .right {
+.links .inline_links .right {
     width: 50%;
     padding-left: 50px;
 }
 
-.inline_links .right ul{
+.links .inline_links .right ul{
     list-style: none;
 }
 
-.inline_links .right li,a{
+.links .inline_links .right li,a{
     text-decoration: none ;
     color: white;
 }
@@ -128,28 +128,28 @@ footer{
     justify-content:center;
 }
 
-.external_links .left {
+.links .external_links .left {
     width: 50%;
     padding-left: 50px;
     font-size: 13px;
     line-height: 2em;
 }
 
-.external_links .left ul{
+.links  .external_links .left ul{
     list-style: none;
 }
 
-.external_links .left li,a{
+.links  .external_links .left li,a{
     text-decoration: none ;
     color: white;
 }
 
-.external_links .right {
+.links  .external_links .right {
     width: 50%;
     padding-left: 50px;
 }
 
-.external_links .right ul{
+.links  .external_links .right ul{
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -158,7 +158,7 @@ footer{
     align-content: center;
 }
 
-.external_links .right li {
+.links  .external_links .right li {
     text-decoration: none ;
     color: white;
     font-size: 16px;
